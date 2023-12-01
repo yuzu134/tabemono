@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style-link.css">
+  <title>企業さんはこちら</title>
+</head>
+
+<body>
+  <header class="header">
+	  <div class="container">
+	    <div class="logo"><a href="index.html"><img src="logo.png"  alt="ロゴ"></a></div>
+      <div class="menu">
+        <input type="checkbox" id="menu-btn-check">
+        <label for="menu-btn-check" class="menu-btn"><span></span></label>
+        <nav class="gnav">
+                <ul class="gnav-list">
+                  <li class="gnav-item">
+                    <a href="index.html">ホーム</a>
+                  </li>
+                  <li class="gnav-item">
+                    <a href="vision.html">食べモノについて</a>
+                  </li>
+                  <li class="gnav-item">
+                    <a href="omoi.html">農家さんの想い</a>
+                  </li>
+                  <li class="gnav-item">
+                    <a href="success.html">これまでのつながり</a>
+                  </li>
+                </ul>
+              </nav>
+      </div>
+      <div class="header-btn">
+        <a href="sitehosii.html" class="sitehosii-btn"><img class="" src="farmer.png" alt="農家さん" width="50%"><span class="header-text">農家さんは<br>こちら</span></a>
+        <a href="sitai.html" class="sitai-btn"><img class="" src="sara.png" alt="会社員" width="50%"><span class="header-text">企業さんは<br>こちら</span></a>
+      </div>
+	  </div>
+	</header>
+  <div class="section" id="flow">
+    <h2 class="title" id="flow-title">企業さんはこちら</h2>
+    <img class="" src="sara.png" alt="会社員" width="20%">
+      <p class="flow-description">
+        廃棄される野菜をアップサイクルしませんか。<br>
+        農家さんと一緒に、<br>
+        環境に優しいモノづくりに取り組みましょう。
+      </p>
+    <div class="kigyou-flow">
+      <h2 class="title" id="flow-title">利用の流れ</h2>
+      <div class="step">
+        <p class="step-number">STEP1</p>
+        <p class="step-text">
+          <span class="step-title">「農家さんの想い」を読む</span><br>
+          <br>
+          応援したい農家さんを見つけましたか。<br>
+          <a href="omoi.html" class="step-link">「農家さんの想い」はこちら ➤</a>
+        </p>
+      </div>
+      <div class="step">
+        <p class="step-number">STEP2</p>
+        <p class="step-text">
+          <span class="step-title">農家さんに応募する</span><br>
+          <br>
+          以下の応募フォームに入力し、送信してください。<br>
+          確認次第、その旨を農家さんに連絡致します。
+        </p>
+      </div>
+      <div class="step">
+        <p class="step-number">STEP3</p>
+        <p class="step-text">
+          <span class="step-title">農家さんとつながる</span><br>
+          <br>
+          お互いの承諾で、農家さんと企業さんで連絡を取って頂きます。<br>
+          食べモノは農家さんと企業さんをつなぐきっかけを作ります。
+        </p>
+      </div>
+    </div>
+  </div>  
+  <div class="Form">
+    <h2 class="title" id="flow-title">応募フォーム</h2>
+      <div class="Form-food">
+          <p class="Form-info">活用情報</p>
+          <div class="Form-Item">
+            <p class="Form-Item-Label">
+              <span class="Form-Item-Label-Required">必須</span>応援したい農家さんの想いの番号
+            </p>
+            <input type="text" class="Form-Item-Input" placeholder="例）1">
+          </div>
+          <div class="Form-Item">
+            <p class="Form-Item-Label isMsg">
+              <span class="Form-Item-Label-Required">必須</span>活用方法</p>
+            <textarea class="Form-Item-Textarea" placeholder="食品をどのように使うかお書きください"></textarea>
+          </div>
+      </div>
+      
+      <div class="Form-user">
+          <p class="Form-info">ユーザー情報</p>
+          <div class="Form-Item">
+            <p class="Form-Item-Label">
+              <span class="Form-Item-Label-Required">必須</span>会社名（個人名）
+            </p>
+            <input type="text" class="Form-Item-Input" placeholder="例）株式会社００">
+          </div>
+          <div class="Form-Item">
+            <p class="Form-Item-Label">
+              <span class="Form-Item-Label-Required">必須</span>住所</p>
+            <input type="text" class="Form-Item-Input" placeholder="例）和歌山県和歌山市加納０００－０">
+          </div>
+          <div class="Form-Item">
+            <p class="Form-Item-Label">
+              <span class="Form-Item-Label-Required">必須</span>電話番号</p>
+            <input type="text" class="Form-Item-Input" placeholder="例）000-0000-0000">
+          </div>
+          <div class="Form-Item">
+            <p class="Form-Item-Label">
+              <span class="Form-Item-Label-Required">必須</span>メールアドレス</p>
+            <input type="email" class="Form-Item-Input" placeholder="例）example@gmail.com">
+          </div>
+          <div class="Form-Item">
+            <p class="Form-Item-Label isMsg">
+              <span class="Form-Item-Label-Required" id="sonota">任意</span>その他</p>
+            <textarea class="Form-Item-Textarea" placeholder="その他の要望や質問がございましたらお書きください"></textarea>
+          </div>
+      </div>
+      <input type="submit" class="Form-Btn" value="送信する">
+
+      <footer class="footer">
+        <div class="copyright">©tabemono</div>
+      </footer>
+  </div>
+</body>
+
+</html>
