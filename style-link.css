@@ -16,6 +16,7 @@ body {
 .logo {
   float: left;
   text-align: left;
+  height: 60px;
 }
 .logo img {
   height: 60px;
