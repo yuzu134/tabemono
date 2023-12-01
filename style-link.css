@@ -1,12 +1,14 @@
 body {
   width: 100%;
   margin: 0;
+  height: auto;
 }
 .wrapper {
   margin-left: auto;
   margin-right: auto;
   margin-top: 50px;
   width: 100%;
+  height: auto;
 }
 .content {
   width: 100%;
